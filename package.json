@@ -1,7 +1,7 @@
 {
   "name": "simplecrawler",
   "description": "Very straigntforward web crawler. Uses EventEmitter. Generates queue statistics and has a basic cache mechanism with extensible backend.",
-  "version": "0.5.2",
+  "version": "0.5.4",
   "homepage": "https://github.com/cgiffard/node-simplecrawler",
   "author": "Christopher Giffard <christopher.giffard@cgiffard.com>",
   "repository": {
@@ -28,7 +28,7 @@
   },
   "main": "./lib/index.js",
   "dependencies": {
-    "URIjs": "^1.15.0"
+    "urijs": "^1.18.1"
   },
   "devDependencies": {
     "chai": "^2.2.0",
